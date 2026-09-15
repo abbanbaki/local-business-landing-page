@@ -1,0 +1,138 @@
+
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:#fcfbf8;
+    color:#1a1a1a;
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* NAV */
+  nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:24px 40px;
+    max-width:1400px;
+    margin:0 auto;
+  }
+  .logo{
+    width:62px;
+    height:62px;
+    border:1px solid #1a3c2f;
+    transform:rotate(45deg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+  }
+  .logo span{
+    transform:rotate(-45deg);
+    font-family:'Bodoni Moda', serif;
+    font-weight:700;
+    font-size:28px;
+    letter-spacing:-1px;
+    color:#1a3c2f;
+  }
+  .nav-links{
+    display:flex;
+    gap:28px;
+    font-size:11px;
+    letter-spacing:3px;
+    font-weight:500;
+  }
+  .nav-links a{
+    text-decoration:none;
+    color:#1a1a1a;
+  }
+  .nav-links a::after{
+    content:'•';
+    margin-left:28px;
+    font-size:8px;
+  }
+  .nav-links a:last-child::after{content:''}
+
+  /* HERO */
+  .hero{
+    text-align:center;
+    padding:90px 20px 140px;
+    max-width:900px;
+    margin:0 auto;
+  }
+  .eyebrow{
+    font-size:12px;
+    letter-spacing:5px;
+    color:#1a3c2f;
+    margin-bottom:32px;
+    font-weight:500;
+  }
+  .main-title{
+    font-family:'Bodoni Moda', serif;
+    font-size: clamp(42px, 8vw, 84px);
+    font-weight:400;
+    letter-spacing:2px;
+    line-height:0.9;
+    margin-bottom:30px;
+    text-transform:uppercase;
+  }
+  .script-sub{
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    font-size: clamp(24px, 4vw, 44px);
+    line-height:1.2;
+    color:#1a3c2f;
+    margin-bottom:40px;
+  }
+  .divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+    margin:0 auto 30px;
+  }
+  .divider::before, .divider::after{
+    content:'';
+    width:60px;
+    height:1px;
+    background:#1a3c2f;
+    opacity:0.4;
+  }
+  .divider-diamond{
+    width:12px;
+    height:12px;
+    border:1.5px solid #1a3c2f;
+    transform:rotate(45deg);
+    position:relative;
+  }
+  .divider-diamond::after{
+    content:'';
+    position:absolute;
+    inset:2px;
+    background:#1a3c2f;
+  }
+  .meta{
+    font-size:11px;
+    letter-spacing:3px;
+    margin-bottom:42px;
+    opacity:0.9;
+  }
+  .cta{
+    display:inline-block;
+    background:#143626;
+    color:#fff;
+    padding:18px 36px;
+    border-radius:12px;
+    font-size:12px;
+    letter-spacing:2.5px;
+    text-decoration:none;
+    transition:0.3s;
+  }
+  .cta:hover{background:#1f4d37; transform:translateY(-2px)}
+
+  @media(max-width:600px){
+    nav{padding:16px 20px}
+    .nav-links{display:none}
+    .logo{width:48px;height:48px}
+    .logo span{font-size:22px}
+  }
+  
+  
