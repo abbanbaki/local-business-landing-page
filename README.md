@@ -1,4 +1,12 @@
-# Furniwood Studio - Capstone Project
+# Furniwood Studio - Local Business Landing Page
+
+**Live Sites:**
+- GitHub Pages: https://abbanbaki.github.io/local-business-landing-page/
+- Netlify (Bonus): https://cheery-begonia-99ea47.netlify.app
+
+**JavaScript Interactions:** Mobile hamburger menu toggle + Contact form validation + Product gallery filter
+
+**Bonus:** Mobile responsiveness completed, Netlify deployment completed
 
 ### 1. Project Overview
 My name is Abban Mohammed Baki.
@@ -58,7 +66,5 @@ The challenge I faced was making the Recent Works and Services grids stack from 
 
 What I learned: I learned how to structure HTML with semantic tags, how to connect CSS and JS properly, how to use media queries for responsiveness, and how to document my work in README.
 
-GitHub Repo: https://github.com/AbbanMohammedBaki/local-business-landing-page
-Live Link: https://abbanmohammedbaki.github.io/local-business-landing-page
 
 To setup locally: Clone the repo and open index.html in any browser.
